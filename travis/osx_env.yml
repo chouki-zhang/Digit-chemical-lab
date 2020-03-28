@@ -1,0 +1,24 @@
+channels:
+  - defaults
+  - pytorch
+  - rdkit
+dependencies:
+  - pandas
+  - seaborn
+  - numpy
+  - scipy
+  - requests
+  - rdkit
+  - scikit-learn
+  - scipy
+  - pytorch=1.4.0
+  - pytest
+  - pytest-cov
+  - pip
+  - pip:
+      - ruamel.yaml
+      - Python-Deprecated
+      - mordred
+      - matminer
+      - pymatgen==2020.3.13
+      - tqdm

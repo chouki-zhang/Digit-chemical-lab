@@ -1,0 +1,36 @@
+name: xepy36
+channels:
+  - defaults
+  - pytorch
+  - rdkit
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pandas
+  - seaborn
+  - requests
+  - rdkit=2019.09.1.0
+  - plotly
+  - scikit-learn
+  - scipy
+  - pytorch=1.3.0
+  - pymatgen==2019.12.3
+  - pytest
+  - pytest-cov
+  - pylint
+  - sphinx
+  - sphinx_rtd_theme
+  - jupyter
+  - nbconvert!=5.4
+  - pip
+  - pip:
+      - nbsphinx
+      - matminer
+      - Python-Deprecated
+      - sphinx-autodoc-typehints
+      - ruamel.yaml
+      - jupyterlab
+      - pybtex
+      - mordred
+      - yapf
+      - tqdm

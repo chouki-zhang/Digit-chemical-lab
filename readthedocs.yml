@@ -1,0 +1,11 @@
+conda:
+  file: devtools/readthedocs.yml
+
+build:
+  image: latest
+
+formats:
+  - pdf
+
+python:
+  version: 3.6
